@@ -10,12 +10,12 @@
   body {
     min-height: 100%;
     padding: 40px 0;
-    color: rgba(255, 255, 255, 1.0);
-    background: linear-gradient(75deg, #079012, #40993d, #60a25c, #7da979, #98af96, #b3b3b3, #bd9992, #c27f72, #c36253, #c04132, #bb0000); /* made at https://learnui.design/tools/gradient-generator.html */
+    color: rgb(24, 163, 43);
+    background: linear-gradient(90deg, #003f5b, #00405d, #004b66, #006978, #009d6c, #00b640, #42bd13, #49be00); /* made at https://learnui.design/tools/gradient-generator.html */
   }
 
   a {
-    color: rgba(255, 255, 255, 1.0);
+    color: rgb(24, 163, 43);
   }
   .avatar-image {
     width:128px; 
@@ -32,5 +32,10 @@
   }
 
   .item {
-    background-color: rgb(230, 155, 43, 0.5);
+    background-color: rgba(0, 97, 176, 0.78)
+  }
+
+  .main-container{
+    max-width: 640px;
+    margin: auto;
   }
