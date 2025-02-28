@@ -10,12 +10,16 @@
   body {
     min-height: 100%;
     padding: 40px 0;
-    color: rgba(26, 24, 163, 0.425);
     background: linear-gradient(90deg, #003f5b, #00405d, #004b66, #006978, #009d6c, #00b640, #42bd13, #49be00); /* made at https://learnui.design/tools/gradient-generator.html */
+    color: rgba(26, 24, 163, 0.425);
+    font-family: 'Lora', serif;
+    
   }
 
+  /* remove underline and change color*/
   a {
     color: rgba(26, 24, 163, 0.425);
+    text-decoration: none;
   }
   .avatar-image {
     width:128px; 
@@ -57,9 +61,18 @@
     text-align: center;
   }
 
+  /* set font size and make it bolder with font weight*/
   .name-row{
     margin-bottom: 30px;
     text-align: center;
+    font-family: 'Roboto', sans-serif;
+
+    /*
+    font-size: 48px;
+    font-family: "Georgia";
+    */
+    font-size: 24px;
+    font-weight: 900;
   }
 
   .social-icons-row{
