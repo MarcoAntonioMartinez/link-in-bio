@@ -1,8 +1,8 @@
-
+/**/
   * {
     border: 1px red dashed;
   }
-
+/**/
   html {
     min-height: 100%;
   }  
@@ -10,12 +10,12 @@
   body {
     min-height: 100%;
     padding: 40px 0;
-    color: rgb(24, 163, 43);
+    color: rgba(26, 24, 163, 0.425);
     background: linear-gradient(90deg, #003f5b, #00405d, #004b66, #006978, #009d6c, #00b640, #42bd13, #49be00); /* made at https://learnui.design/tools/gradient-generator.html */
   }
 
   a {
-    color: rgb(24, 163, 43);
+    color: rgba(26, 24, 163, 0.425);
   }
   .avatar-image {
     width:128px; 
@@ -31,18 +31,27 @@
     object-fit: cover;
   }
 
+  /* center links instead of having them at the bottom of the container */
   .item {
-    background-color: rgba(0, 97, 176, 0.78);
+    background-color: rgba(164, 214, 255, 0.5);
     margin-bottom: 20px;
     display: flex;
     align-items: center;
   }
+  
+  /* give space to link text to center it*/
+  .link-text {
+    text-align: center;
+    flex-grow: 1;
+  }
+
 
   .main-container{
     max-width: 640px;
     margin: auto;
   }
 
+  /* give space at the bottom and align the name center */
   .image-row{
     margin-bottom: 20px;
     text-align: center;
