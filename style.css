@@ -1,4 +1,4 @@
-/**/
+/*
   * {
     border: 1px red dashed;
   }
@@ -21,6 +21,7 @@
     color: rgba(26, 24, 163, 0.425);
     text-decoration: none;
   }
+
   .avatar-image {
     width:128px; 
     height:128px;
@@ -41,7 +42,7 @@
     border-radius: 1000px;
     padding: 5px;
     padding-right: 53px;
-    box-shadow: 4 px 4px 10px 0px rgb(122, 32, 122);
+    box-shadow: 4 px 4px 10px 0px rgb(32, 33, 122);
     margin-bottom: 20px;
     display: flex;
     align-items: center;
