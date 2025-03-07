@@ -11,14 +11,14 @@
     min-height: 100%;
     padding: 40px 0;
     background: linear-gradient(90deg, #003f5b, #00405d, #004b66, #006978, #009d6c, #00b640, #42bd13, #49be00); /* made at https://learnui.design/tools/gradient-generator.html */
-    color: rgb(17, 17, 17);
+    color: rgba(17, 17, 17, 1.0);
     font-family: 'Lora', serif;
     
   }
 
   /* remove underline and change color*/
   a {
-    color: rgb(17, 17, 17);
+    color: rgba(17, 17, 17, 1.0);
     text-decoration: none;
   }
 
@@ -42,7 +42,7 @@
     border-radius: 1000px;
     padding: 5px;
     padding-right: 53px;
-    box-shadow: 4 px 4px 10px 0px rgb(32, 33, 122);
+    box-shadow: 4px 4px 10px 0px rgba(32, 33, 122, 0.5);
     margin-bottom: 20px;
     display: flex;
     align-items: center;
