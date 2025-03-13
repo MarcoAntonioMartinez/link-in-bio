@@ -1,3 +1,3 @@
-# static-html-template
+# Link-in-Bio
 
-Use this template to create static HTML websites and deploy them on Render.
+Site that is used as a central hub for my social links and links I find interesting.
